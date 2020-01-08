@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="0" name="com.unimoni.cucumber.runners.TestRunner" time="0.018" errors="2" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\bin"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Seshu\UniMoni-Training\Own\Batch4\cucumber"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Seshu\UniMoni-Training\Own\Batch4\cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\seshuk\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Seshu\UniMoni-Training\Own\Batch4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf956042064489281658.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/Seshu/Softs/amazon-corretto-8.232.09.1-windows-x64-jdk/jdk1.8.0_232/bin/../jre/bin/server;E:/Seshu/Softs/amazon-corretto-8.232.09.1-windows-x64-jdk/jdk1.8.0_232/bin/../jre/bin;E:/Seshu/Softs/amazon-corretto-8.232.09.1-windows-x64-jdk/jdk1.8.0_232/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\bin;C:\Program Files\Git\cmd;C:\browsers;C:\Users\seshuk\Downloads\apache-maven-3.6.1\apache-maven-3.6.1\bin;C:\Users\seshuk\AppData\Local\Android\Sdk\platform-tools;C:\Users\seshuk\AppData\Local\Android\Sdk\tools;C:\Users\seshuk\AppData\Local\Android\Sdk\build-tools;C:\Program Files\nodejs\;C:\Users\seshuk\AppData\Local\Android\Sdk;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\PuTTY\;C:\Gradle\gradle-5.4.1\bin;C:\Users\seshuk\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\seshuk\AppData\Local\Programs\Python\Python37-32\;C:\Users\seshuk\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin;C:\Users\seshuk\AppData\Roaming\npm;C:\Users\seshuk\AppData\Local\GitHubDesktop\bin;E:\keys;;C:\Users\seshuk\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\seshuk"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="seshuk"/>
+    <property name="java.class.path" value="C:\Users\seshuk\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="java.ext.dirs" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\resources.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\rt.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\sunrsasign.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\jsse.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\jce.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\charsets.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\lib\jfr.jar;E:\Seshu\Softs\amazon-corretto-8.232.09.1-windows-x64-jdk\jdk1.8.0_232\jre\classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="E:\Seshu\UniMoni-Training\Own\Batch4\cucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Positive login scenario" name="Given User is at login page" time="0.004"/>
+  <testcase classname="Scenario: Positive login scenario" name="When User enters login name as &quot;mngr222872&quot; and password as &quot;apamyhy&quot;" time="0"/>
+  <testcase classname="Scenario: Positive login scenario" name="And clicks on login button" time="0"/>
+  <testcase classname="Scenario: Positive login scenario" name="Then User should be allowed to login" time="0.004">
+    <error message="unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=79.0.3945.88): User is not valid
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NBLAP247&apos;, ip: &apos;192.168.43.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\seshuk\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad1691a5d3cd42c9302408494d2ba98f
+*** Element info: {Using=xpath, value=//center/img}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=79.0.3945.88): User is not valid
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NBLAP247&apos;, ip: &apos;192.168.43.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\seshuk\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad1691a5d3cd42c9302408494d2ba98f
+*** Element info: {Using=xpath, value=//center/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.unimoni.cucumber.glues.LoginGlue.user_should_be_allowed_to_login(LoginGlue.java:43)
+	at ✽.Then User should be allowed to login(LoginFirst.feature:8)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Positive login scenario" name="Scenario: Positive login scenario" time="0.004">
+    <error message="unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=79.0.3945.88): User is not valid
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NBLAP247&apos;, ip: &apos;192.168.43.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\seshuk\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad1691a5d3cd42c9302408494d2ba98f
+*** Element info: {Using=xpath, value=//center/img}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=79.0.3945.88): User is not valid
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NBLAP247&apos;, ip: &apos;192.168.43.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\seshuk\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad1691a5d3cd42c9302408494d2ba98f
+*** Element info: {Using=xpath, value=//center/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.unimoni.cucumber.glues.LoginGlue.user_should_be_allowed_to_login(LoginGlue.java:43)
+	at ✽.Then User should be allowed to login(LoginFirst.feature:8)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Positive login scenario" name="And user should be in home page" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Negative login scenario" name="Given User is at login page" time="0"/>
+  <testcase classname="Scenario: Negative login scenario" name="When User enters login name as &quot;mngr&quot; and password as &quot;ap&quot;" time="0"/>
+  <testcase classname="Scenario: Negative login scenario" name="And clicks on login button" time="0"/>
+  <testcase classname="Scenario: Negative login scenario" name="Then user should not be allowed to login" time="0.001"/>
+  <testcase classname="Scenario: Negative login scenario" name="And user should not see home page" time="0"/>
+  <testcase classname="Scenario: Negative login scenario" name="Scenario: Negative login scenario" time="0"/>
+</testsuite>
